@@ -2,13 +2,14 @@ import java.io.*;
 class Employee{
 public void details(String name,int yoj,String address)
 {
-System.out.println("name of the employee:"+name+" "+"year of joining:"+joj+" "+"address of the employee:"+address);
+System.out.println("name of the employee:"+name+" "+"year of joining:"+yoj+" "+"address of the employee:"+address);
+}
 public static void main(String args[])
-{Employee emp1=new Employee;
+{Employee emp1=new Employee();
 emp1etails("robert",1994,"64c-wallsStreet");
-Employee emp2=new Employee;
+Employee emp2=new Employee();
 emp2.details("sam",2000,"68c -wallsStreet");
-Employee emp3=new Employee;
+Employee emp3=new Employee();
 emp3.details("john",1999,"26b -wallsStreet");
 }
 }
